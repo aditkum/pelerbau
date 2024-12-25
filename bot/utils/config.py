@@ -18,7 +18,7 @@ class Config:
         self.BOT_TOKEN: str = os.environ.get("BOT_TOKEN", "7567435108:AAG8L7DsfVnXvOgBhCiBcr84_RsRZSLk-wA")
         self.OWNER_ID: int = int(os.environ.get("OWNER_ID", 1748933027))
         self.MONGODB_URL: str = os.environ.get(
-            "MONGODB_URL", "mongodb+srv://allfams:1234@cluster0.ze5ry.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+            "MONGODB_URL", "mongodb+srv://exposinhere:1234@cluster0.pt9ug.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
         )
         self.DATABASE_CHAT_ID: int = int(os.environ.get("DATABASE_CHAT_ID", -1002414990605))
         self.OWNER_USERNAME: str = os.environ.get("OWNER_USERNAME", "lordpuhh")
