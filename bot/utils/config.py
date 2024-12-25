@@ -11,17 +11,17 @@ class Config:
     """
 
     def __init__(self):
-        self.API_ID: int = int(os.environ.get("API_ID", 2040))
+        self.API_ID: int = int(os.environ.get("API_ID", 26604254))
         self.API_HASH: str = os.environ.get(
-            "API_HASH", "b18441a1ff607e10a989891a5462e627"
+            "API_HASH", "3195acbac32b27313e816afa8e5b3a3d"
         )
-        self.BOT_TOKEN: str = os.environ.get("BOT_TOKEN", "")
-        self.OWNER_ID: int = int(os.environ.get("OWNER_ID", 487936750))
+        self.BOT_TOKEN: str = os.environ.get("BOT_TOKEN", "7567435108:AAG8L7DsfVnXvOgBhCiBcr84_RsRZSLk-wA")
+        self.OWNER_ID: int = int(os.environ.get("OWNER_ID", 1748933027))
         self.MONGODB_URL: str = os.environ.get(
-            "MONGODB_URL", "mongodb://root:passwd@mongo"
+            "MONGODB_URL", "mongodb+srv://royalinhere:1234@cluster0.twkrr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
         )
-        self.DATABASE_CHAT_ID: int = int(os.environ.get("DATABASE_CHAT_ID", 0))
-        self.OWNER_USERNAME: str = os.environ.get("OWNER_USERNAME", "IlhamTG")
+        self.DATABASE_CHAT_ID: int = int(os.environ.get("DATABASE_CHAT_ID", -1002414990605))
+        self.OWNER_USERNAME: str = os.environ.get("OWNER_USERNAME", "lordpuhh")
 
         # Perform validation
         self._validate()
